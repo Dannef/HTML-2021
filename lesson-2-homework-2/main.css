@@ -1,0 +1,29 @@
+h1{background: #892726; color: antiquewhite; text-align: center}
+body {margin: 30px 5px 30px 5px;}
+.target {
+    background: silver;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px
+}
+.target2 { background: #6395ec;
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 50px 50px 0px;
+}
+
+.target3 {background: #6bba67;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+
+}
+.target4 {
+    background: #918a8a;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
