@@ -1,17 +1,18 @@
 #main {
     height: 600px;
     width: 1000px;
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin: auto;
     flex-direction: row;
     column-gap: 10px;
     row-gap: 10px;
     border-radius: 3px;
     border: 2px solid black;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
+    box-shadow: silver 0px 10px 10px 35px;
 }
 
 .a {
@@ -35,6 +36,7 @@
     align-items: center;
     border-radius: 3px;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 
 
 }
