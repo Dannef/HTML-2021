@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 330px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-direction: column;
+    align-content: center;
+}
+
+.hw-tb {
+    height: 100px;
+    width: 440px;
+    background: lightskyblue;
+    margin: auto;
+}
+.wh-right {
+    width: 300px;
+    height: 150px;
+    background: coral;
+}
+.menu {
+    background: hotpink;
+    height: 310px;
+    width: 130px;
+}
+.dja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brd-rad {
+    border: 1px solid red;
+}
