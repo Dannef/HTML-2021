@@ -1,0 +1,148 @@
+#main {
+    height: 600px;
+    width: 1000px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+.a {
+    background: silver;
+    height: 190px;
+    width: 990px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+#bcd {
+    height: 390px;
+    width: 750px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 3px;
+    flex-wrap: wrap;
+
+}
+.b {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.c {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.d {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.e {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.f {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.g {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    height: 390px;
+    width: 240px;
+    border-radius: 3px;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+
+    .a {
+        background: darkred;
+        height: 150px;
+        width: 350px;
+        border-radius: 10px;
+    }
+    .xxx {
+        background: navajowhite;
+        height: 90px;
+        width: 90px;
+        border-radius: 5px;
+        margin: auto;
+    }
+    .zzz {
+        background: cornflowerblue;
+        height: 90px;
+        width: 90px;
+        border-radius: 5px;
+        margin: auto;
+
+    }
+    .h {
+        height: 240px;
+        width: 350px;
+        border-radius: 10px;
+    }
+    #bcd {
+        flex-direction: row;
+        width: 350px;
+        column-gap: 40px;
+    }
+    #main {
+        border: 1px solid green;
+        width: 350px;
+        border-radius: 10px;
+
+    }
+}
+
