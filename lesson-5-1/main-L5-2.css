@@ -1,0 +1,139 @@
+#main {
+    height: 600px;
+    width: 1000px;
+    justify-content: flex-start;
+    display: flex;
+    margin: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#dce {
+
+    width: 740px;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 3px;
+    flex-wrap: wrap;
+}
+.a {
+    background: silver;
+    height: 190px;
+    width: 990px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    flex-wrap: wrap;
+
+}
+
+.b {
+    background: silver;
+    height: 190px;
+    width: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.c {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.d {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.e {
+    background: silver;
+    height: 190px;
+    width: 240px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.f {
+    background: silver;
+    height: 390px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .a {
+        background: darkgreen;
+        height: 130px;
+        width: 350px;
+        border-radius: 5px;
+    }
+    .b {
+        background: darkcyan;
+        height: 240px;
+        width: 350px;
+        border-radius: 5px;
+    }
+    .c {
+        background: lavender;
+        height: 70px;
+        width: 70px;
+        border-radius: 5px;
+        margin-right: 60px;
+    }
+    .d {
+        background: lavender;
+        height: 70px;
+        width: 70px;
+        border-radius: 5px;
+        margin-right: 60px;
+
+    }
+    .e {
+        background: lavender;
+        height: 70px;
+        width: 70px;
+        border-radius: 5px;
+
+
+    }
+    .f {
+        background: darkgreen;
+        height: 130px;
+        width: 350px;
+        border-radius: 5px;
+    }
+    #main {
+        width: 350px;
+        border: 1px solid black;
+    }
+}
